@@ -99,6 +99,10 @@
     <Compile Include="Migrations\201805082343323_buildDatabase.Designer.cs">
       <DependentUpon>201805082343323_buildDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805082357294_AddBirthDateToUser.cs" />
+    <Compile Include="Migrations\201805082357294_AddBirthDateToUser.Designer.cs">
+      <DependentUpon>201805082357294_AddBirthDateToUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
     <Compile Include="Models\Message.cs" />
@@ -121,6 +125,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805082343323_buildDatabase.resx">
       <DependentUpon>201805082343323_buildDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805082357294_AddBirthDateToUser.resx">
+      <DependentUpon>201805082357294_AddBirthDateToUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

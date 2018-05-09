@@ -7,6 +7,7 @@ namespace EntityPractice.Migrations
     {
         public override void Up()
         {
+			AddColumn("dbo.Users", "BirthDate", c => c.DateTime());
         }
         
         public override void Down()
